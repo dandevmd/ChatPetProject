@@ -1,0 +1,55 @@
+:root {
+    --back: #A32cc4;
+    --keys: #a1045a;
+    --title: 18px;
+    --semibold: 600;
+    --brad: 5px;
+    --hover: #601a35;
+}
+
+button {
+    outline: none;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    font-size: var(--title);
+    font-weight: var(--semibold);
+    background-color: var(--keys);
+    padding: 5px 15px;
+    border-radius: var(--brad);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--hover);
+}
+
+.nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50px;
+    background-color: var(--back);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-bottom: 1px solid var(--keys);
+}
+
+.nav-logo-div {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-logo {
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link {
+    margin: 0 5px;
+    cursor: pointer;
+}

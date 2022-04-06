@@ -1,0 +1,28 @@
+:root {
+    --back: #A32cc4;
+    --keys: #a1045a;
+    --title: 18px;
+    --semibold: 600;
+    --brad: 5px;
+    --hover: #601a35;
+}
+
+.log-container {
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 300px;
+    background: var(--back);
+    border: var(--keys) 1px solid;
+    border-radius: var(--brad);
+    box-shadow: 12px 12px 8px 1px rgba(161, 4, 90, 0.27);
+}
+
+.google__icon {
+    margin-bottom: 30px;
+    width: 70px;
+    height: 70px;
+}

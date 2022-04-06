@@ -1,0 +1,51 @@
+.m-container {
+    display: flex;
+    background: #A32cc4;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.m-container img {
+    padding: 5px;
+    width: 32px;
+    height: 32px;
+    border: 50%;
+}
+
+.m-container h3 {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-style: italic;
+}
+
+.m-container p {
+    font-size: 16px;
+    color: #fff;
+    padding-top: 5px;
+}
+
+.m-credential {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.del-btn {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background: none;
+    width: 5px;
+    height: 5px;
+    color: #a1045a;
+}
+
+.del-btn:hover {
+    color: #fff;
+    background: none;
+}

@@ -1,0 +1,42 @@
+:root {
+    --back: #A32cc4;
+    --keys: #a1045a;
+    --title: 18px;
+    --semibold: 600;
+    --brad: 5px;
+    --hover: #601a35;
+}
+
+.ch-wind {
+    padding: 50px 0px 100px 0px;
+}
+
+.ch-form {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px 10px;
+    height: 70px;
+    background: var(--back);
+    border-top: 1px solid var(--keys);
+}
+
+.ch-form-text {
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.ch-form-text::placeholder {
+    color: black;
+}
